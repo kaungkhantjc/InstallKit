@@ -1,0 +1,83 @@
+ProGuard, version 6.0.3
+ProGuard is released under the GNU General Public License. You therefore
+must ensure that programs that link to it (a, com.a4455jkjh.b, ...)
+carry the GNU General Public License as well. Alternatively, you can
+apply for an exception with the author of ProGuard.
+Reading input...
+Reading program directory [/storage/emulated/0/AideSamples/InstallKit/app/build/bin/classesrelease_proguard]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/legacy/legacy-support-core-utils/1.0.0/legacy-support-core-utils-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/lifecycle/lifecycle-common/2.0.0/lifecycle-common-2.0.0.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/core/core/1.0.0/core-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/annotation/annotation/1.0.0/annotation-1.0.0.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/collection/collection/1.0.0/collection-1.0.0.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/documentfile/documentfile/1.0.0/documentfile-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/versionedparcelable/versionedparcelable/1.0.0/versionedparcelable-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/customview/customview/1.0.0/customview-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/coordinatorlayout/coordinatorlayout/1.0.0/coordinatorlayout-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/slidingpanelayout/slidingpanelayout/1.0.0/slidingpanelayout-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/appcompat/appcompat/1.0.2/appcompat-1.0.2.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/lifecycle/lifecycle-livedata/2.0.0/lifecycle-livedata-2.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/print/print/1.0.0/print-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/lifecycle/lifecycle-viewmodel/2.0.0/lifecycle-viewmodel-2.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/vectordrawable/vectordrawable/1.0.0/vectordrawable-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/swiperefreshlayout/swiperefreshlayout/1.0.0/swiperefreshlayout-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/cursoradapter/cursoradapter/1.0.0/cursoradapter-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/interpolator/interpolator/1.0.0/interpolator-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/arch/core/core-common/2.0.0/core-common-2.0.0.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/asynclayoutinflater/asynclayoutinflater/1.0.0/asynclayoutinflater-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/vectordrawable/vectordrawable-animated/1.0.0/vectordrawable-animated-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/localbroadcastmanager/localbroadcastmanager/1.0.0/localbroadcastmanager-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/legacy/legacy-support-core-ui/1.0.0/legacy-support-core-ui-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/drawerlayout/drawerlayout/1.0.0/drawerlayout-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/viewpager/viewpager/1.0.0/viewpager-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/loader/loader/1.0.0/loader-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/fragment/fragment/1.0.0/fragment-1.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/arch/core/core-runtime/2.0.0/core-runtime-2.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/lifecycle/lifecycle-runtime/2.0.0/lifecycle-runtime-2.0.0.tmp.jar]
+Reading program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/lifecycle/lifecycle-livedata-core/2.0.0/lifecycle-livedata-core-2.0.0.tmp.jar]
+Reading library jar [/storage/emulated/0/AppProjects/android.jar]
+Initializing...
+Ignoring unused library classes...
+  Original number of library classes: 4530
+  Final number of library classes:    1281
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/storage/emulated/0/AideSamples/InstallKit/app/build/bin/proguard.usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 1374
+  Final number of program classes:    661
+Obfuscating...
+Printing mapping to [/storage/emulated/0/AideSamples/InstallKit/app/build/bin/proguard.mapping.txt]...
+Writing output...
+Preparing output directory [/storage/emulated/0/AideSamples/InstallKit/app/build/bin/proguard]
+  Copying resources from program directory [/storage/emulated/0/AideSamples/InstallKit/app/build/bin/classesrelease_proguard]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/legacy/legacy-support-core-utils/1.0.0/legacy-support-core-utils-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/lifecycle/lifecycle-common/2.0.0/lifecycle-common-2.0.0.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/core/core/1.0.0/core-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/annotation/annotation/1.0.0/annotation-1.0.0.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/collection/collection/1.0.0/collection-1.0.0.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/documentfile/documentfile/1.0.0/documentfile-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/versionedparcelable/versionedparcelable/1.0.0/versionedparcelable-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/customview/customview/1.0.0/customview-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/coordinatorlayout/coordinatorlayout/1.0.0/coordinatorlayout-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/slidingpanelayout/slidingpanelayout/1.0.0/slidingpanelayout-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/appcompat/appcompat/1.0.2/appcompat-1.0.2.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/lifecycle/lifecycle-livedata/2.0.0/lifecycle-livedata-2.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/print/print/1.0.0/print-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/lifecycle/lifecycle-viewmodel/2.0.0/lifecycle-viewmodel-2.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/vectordrawable/vectordrawable/1.0.0/vectordrawable-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/swiperefreshlayout/swiperefreshlayout/1.0.0/swiperefreshlayout-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/cursoradapter/cursoradapter/1.0.0/cursoradapter-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/interpolator/interpolator/1.0.0/interpolator-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/arch/core/core-common/2.0.0/core-common-2.0.0.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/asynclayoutinflater/asynclayoutinflater/1.0.0/asynclayoutinflater-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/vectordrawable/vectordrawable-animated/1.0.0/vectordrawable-animated-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/localbroadcastmanager/localbroadcastmanager/1.0.0/localbroadcastmanager-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/legacy/legacy-support-core-ui/1.0.0/legacy-support-core-ui-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/drawerlayout/drawerlayout/1.0.0/drawerlayout-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/viewpager/viewpager/1.0.0/viewpager-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/loader/loader/1.0.0/loader-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/fragment/fragment/1.0.0/fragment-1.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/arch/core/core-runtime/2.0.0/core-runtime-2.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/lifecycle/lifecycle-runtime/2.0.0/lifecycle-runtime-2.0.0.tmp.jar]
+  Copying resources from program jar [/data/data/com.aide.ui/no_backup/.aide/maven/androidx/lifecycle/lifecycle-livedata-core/2.0.0/lifecycle-livedata-core-2.0.0.tmp.jar]

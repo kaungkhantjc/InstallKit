@@ -1,0 +1,81 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jcsamples.installkit"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:6:2-77
+11-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:6:19-74
+12    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+12-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:7:2-80
+12-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:7:19-77
+13
+14    <application
+14-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:9:5-41:19
+15        android:allowBackup="true"
+15-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:11:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.1] C:\Users\Kaung Khant\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:fullBackupContent="true"
+18-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:17:3-35
+19        android:icon="@drawable/ic_launcher"
+19-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:12:9-45
+20        android:label="@string/app_name"
+20-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:14:9-41
+21        android:requestLegacyExternalStorage="true"
+21-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:18:3-46
+22        android:resizeableActivity="true"
+22-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:16:3-38
+23        android:roundIcon="@drawable/ic_launcher_round"
+23-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:13:9-56
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:15:9-40
+26        <provider
+27            android:name="androidx.core.content.FileProvider"
+27-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:21:4-53
+28            android:authorities="com.jcsamples.installkit.provider"
+28-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:22:4-51
+29            android:exported="false"
+29-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:23:4-28
+30            android:grantUriPermissions="true" >
+30-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:24:4-38
+31            <meta-data
+31-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:25:4-27:36
+32                android:name="android.support.FILE_PROVIDER_PATHS"
+32-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:26:5-55
+33                android:resource="@xml/paths" />
+33-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:27:5-34
+34        </provider>
+35
+36        <activity
+36-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:30:9-40:20
+37            android:name="com.jcsamples.installkit.MainActivity"
+37-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:31:13-41
+38            android:label="@string/app_name" >
+38-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:32:13-45
+39            <intent-filter>
+39-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:34:13-38:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:35:17-69
+40-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:35:25-66
+41                <action android:name="android.intent.action.VIEW" />
+41-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:36:5-57
+41-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:36:13-54
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:37:17-77
+43-->D:\Aprojects\Test Projects\InstallKit\app\src\main\AndroidManifest.xml:37:27-74
+44            </intent-filter>
+45        </activity>
+46    </application>
+47
+48</manifest>
