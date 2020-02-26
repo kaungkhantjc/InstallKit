@@ -1,6 +1,6 @@
 # InstallKit
 Install kit is just an app installer but I expect you could learn useful something from this project if you are a beginner.
-
+* Download Install Kit compiled app [here](https://github.com/kaungkhantjc/InstallKit/blob/master/app/release/app-release.apk?raw=true)
 app installer တခုသာ ဖြစ်ပေမဲ့ အခြေခံရှိသူတွေအတွက်  ပိုပြီး smart ကျကျ code ရေးနိုင်အောင် လေ့လာနိုင်မဲ့ project တခုဖြစ်ဖို့ မျှော်လင့်ပါတယ် 
 
 #### မှတ်ချက်
